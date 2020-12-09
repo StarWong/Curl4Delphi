@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/11/24 20:18:34.522.pas,C:\Users\Ranger\Documents\RAD Studio\Projects\Unit2.pas=D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\curl.pas</Transaction>
+    <Transaction>2020/11/24 20:18:34.522.dfm,C:\Users\Ranger\Documents\RAD Studio\Projects\Unit2.dfm=D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\curl.dfm</Transaction>
+    <Transaction>2020/11/24 20:18:44.919.dproj,C:\Users\Ranger\Documents\RAD Studio\Projects\Project1.dproj=D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\curl_test.dproj</Transaction>
+    <Transaction>2020/11/25 16:28:52.415.pas,D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\Unit1.pas=D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\curlengine.pas</Transaction>
+    <Transaction>2020/11/25 17:51:04.895.pas,D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\curl.pas=D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\main.pas</Transaction>
+    <Transaction>2020/11/25 17:51:04.895.dfm,D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\curl.dfm=D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\main.dfm</Transaction>
+    <Transaction>2020/11/26 11:19:29.399.pas,D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\Unit1.pas=D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\CurlWrapper.pas</Transaction>
+    <Transaction>2020/11/27 15:05:44.086.pas,D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\Unit1.pas=D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\RestClient.pas</Transaction>
+    <Transaction>2020/11/27 21:14:19.817.pas,D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\RestClient.pas=</Transaction>
+    <Transaction>2020/11/27 21:15:05.031.pas,D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\Unit1.pas=D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\CurlDownLoader.pas</Transaction>
+    <Transaction>2020/11/27 21:20:24.079.pas,D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\CurlDownLoader.pas=D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\CurlDownLoadCore.pas</Transaction>
+    <Transaction>2020/11/30 12:48:41.821.pas,D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\CurlWrapper.pas=</Transaction>
+    <Transaction>2020/12/01 16:03:57.924.pas,D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\Unit1.pas=D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\Download.pas</Transaction>
+    <Transaction>2020/12/07 11:27:29.050.pas,D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\Unit1.pas=D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\stdafx.pas</Transaction>
+    <Transaction>2020/12/07 11:42:21.400.pas,D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\stdafx.pas=</Transaction>
+    <Transaction>2020/12/07 12:44:42.197.pas,D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\Unit1.pas=D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\AddTask.pas</Transaction>
+    <Transaction>2020/12/07 12:44:42.197.dfm,D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\Unit1.dfm=D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\AddTask.dfm</Transaction>
+    <Transaction>2020/12/07 20:35:36.622.pas,D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\Unit1.pas=D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\MyFunctions.pas</Transaction>
+    <Transaction>2020/12/07 20:36:38.996.pas,D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\MyFunctions.pas=D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\UIntUtils.pas</Transaction>
+    <Transaction>2020/12/07 20:36:46.332.pas,D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\UIntUtils.pas=</Transaction>
+    <Transaction>2020/12/08 21:44:39.275.pas,D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\Unit1.pas=D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\Curl.pas</Transaction>
+    <Transaction>2020/12/09 11:07:55.454.pas,D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\Curl.pas=</Transaction>
+    <Transaction>2020/12/09 11:29:27.886.pas,D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\curlengine.pas=</Transaction>
+    <Transaction>2020/12/09 16:00:48.784.pas,D:\Ranger\Documents\Visual Studio 2015\Source\Repos\curl_test\curl_h.pas=</Transaction>
+  </Transactions>
+</BorlandProject>
