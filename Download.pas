@@ -333,7 +333,7 @@ begin
       if TryStrToUInt64(str_len, fileSize) then
       begin
         InterlockedExchangeAdd64(m_RemoteFileSize, fileSize);
-        Printf(fileSize, 'recv filesize:');
+       // Printf(fileSize, 'recv filesize:');
       end
       else
         Printf(fileSize, 'Failed On convert');
@@ -457,21 +457,17 @@ begin
         begin
           if Self.Async.GetStatus = ResponseStatus.RecvError then
           begin
-          Printf('rer');
             if ReTryCount > maxReTryCount then
             begin
-            Printf('rer3');
               Self.SendStatus(MsgType.abort, Async.GetDownloadCount);
               Break;
             end
             else
             begin
-            Printf('rer1');
               if GetTickCount > ReTryTimeTict then
               begin
                 if (GetTickCount - ReTryTimeTict) > ReTryTimeTictCount then
                 begin
-                Printf('rer2');
                   Inc(ReTryCount);
                   Self.Async.ReTry;
                   Self.Async.ExecuteAsync;

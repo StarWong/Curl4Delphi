@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{93AEBC85-C716-4532-B875-3B7F340BC8D8}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="curl_test.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Package\Curl4Pascal.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="curl_test">
+			<MSBuild Projects="curl_test.dproj"/>
+		</Target>
+		<Target Name="curl_test:Clean">
+			<MSBuild Targets="Clean" Projects="curl_test.dproj"/>
+		</Target>
+		<Target Name="curl_test:Make">
+			<MSBuild Targets="Make" Projects="curl_test.dproj"/>
+		</Target>
+		<Target Name="Curl4Pascal">
+			<MSBuild Projects="Package\Curl4Pascal.dproj"/>
+		</Target>
+		<Target Name="Curl4Pascal:Clean">
+			<MSBuild Targets="Clean" Projects="Package\Curl4Pascal.dproj"/>
+		</Target>
+		<Target Name="Curl4Pascal:Make">
+			<MSBuild Targets="Make" Projects="Package\Curl4Pascal.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="curl_test;Curl4Pascal"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="curl_test:Clean;Curl4Pascal:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="curl_test:Make;Curl4Pascal:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

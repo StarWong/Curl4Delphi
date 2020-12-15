@@ -50,7 +50,6 @@
 			<DCCReference Include="main.pas">
 				<Form>mainform</Form>
 			</DCCReference>
-			<DCCReference Include="sevenzip.pas"/>
 			<DCCReference Include="CurlDownLoadCore.pas"/>
 			<DCCReference Include="Download.pas">
 				<Form>Form1</Form>
@@ -111,7 +110,11 @@
 						<VersionInfoKeys Name="Comments"/>
 					</VersionInfoKeys>
 					<Excluded_Packages>
+						<Excluded_Packages Name="C:\Users\Public\Documents\RAD Studio\7.0\Bpl\Log.bpl">(untitled)</Excluded_Packages>
+						<Excluded_Packages Name="D:\Ranger\Documents\Visual Studio 2015\Source\Repos\Mylibrary\NtAlpcCS\Packages\NtAlpcServer.bpl">(untitled)</Excluded_Packages>
+						<Excluded_Packages Name="D:\Ranger\Documents\Visual Studio 2015\Source\Repos\Mylibrary\NtAlpcCS\Packages\NtAlpcClient.bpl">(untitled)</Excluded_Packages>
 						<Excluded_Packages Name="C:\Users\Public\Documents\RAD Studio\7.0\Bpl\tmsded2010.bpl">TMS Component Pack design time support</Excluded_Packages>
+						<Excluded_Packages Name="C:\Users\Public\Documents\RAD Studio\7.0\Bpl\Curl4Pascal.bpl">(untitled)</Excluded_Packages>
 					</Excluded_Packages>
 				</Delphi.Personality>
 				<ModelSupport>False</ModelSupport>

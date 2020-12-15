@@ -43,7 +43,7 @@ var
 implementation
 
 uses
-  Logger,sevenzip,Curl,PerlRegEx,SyncObjs,AddTask,UIntUtils;
+  Logger,Curl,PerlRegEx,SyncObjs,AddTask,UIntUtils,sevenzip;
 {$R *.dfm}
 
 type

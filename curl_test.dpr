@@ -10,7 +10,6 @@ uses
   {$ENDIF}
   Forms,
   main in 'main.pas' {mainform},
-  sevenzip in 'sevenzip.pas',
   CurlDownLoadCore in 'CurlDownLoadCore.pas',
   Download in 'Download.pas' {Form1},
   Curl in 'Curl.pas';

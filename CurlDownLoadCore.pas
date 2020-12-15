@@ -939,8 +939,8 @@ begin
     begin
       running_handles := 0;
       retCode := curl_multi_perform(CurlMulti.m_handle, running_handles);
-      if retCode <> CURLE_OK then
-        Printf(Integer(retCode), 'curl_multi_perform:');
+//      if retCode <> CURLE_OK then
+//        Printf(Integer(retCode), 'curl_multi_perform:');
     end;
 
     class function CurlMulti.ReadHandle(var msgsLeft: Integer): PCURLMsg;
